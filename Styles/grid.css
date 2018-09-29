@@ -1,0 +1,20 @@
+.grid-container
+{
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+}
+
+.title-box
+{
+    grid-column-start: 1;
+    grid-column-end: 11;
+}
+
+.navigation
+{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 11;
+}
